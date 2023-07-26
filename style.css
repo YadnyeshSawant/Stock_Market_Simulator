@@ -42,7 +42,7 @@ form label {
 }
 
 form input {
-    width: 100%;
+    width: 96%;
     padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -55,18 +55,6 @@ button {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
-}
-.delete-button {
-    padding: 4px 8px;
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.delete-button:hover {
-    background-color: #c0392b;
 }
 
 
@@ -91,6 +79,19 @@ a:hover {
 .container {
     max-width: 800px;
     margin: auto;
+}
+.delete-button {
+    padding: 4px 8px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-self: center;
+}
+
+.delete-button:hover {
+    background-color: #c0392b;
 }
 
 /* styles.css
